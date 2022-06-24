@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="p-2">
+    <div className="p-3">
       <header>
         <nav className="flex justify-between items-center px-2 h-12">
           <div className="p-0">
