@@ -1,8 +1,14 @@
+import React from "react";
+import { Provider } from "react-redux";
 
+import Portfolio from 'layouts'
+import store from "store/store";
 
 function App() {
   return (
-    <h1>Portfolio v1</h1>
+    <Provider store={store}>
+      <Portfolio />
+    </Provider>
   );
 }
 

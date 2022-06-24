@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: rgba(10, 25, 47, 0.85);
+}
+
+:root {
+    --hamwidth: 30px;
+    --hamcolor: #64ffda;
+}
+
+
+
+.ham_box {
+    display: inline-block;
+    position: relative;
+    width: var(--hamwidth);
+    height: 24px;
+    transform: rotateY(180deg);
+
+}
+
+.ham_box_inner {
+    width: var(--hamwidth);
+    height: 2px;
+    border-radius: 4px;
+    background-color: var(--hamcolor);
+}
+
+.ham_box_inner::before {
+    width: 120%;
+    height: 2px;
+    top: -10px;
+}
+
+.ham_box_inner::after {
+    width: 60%;
+    height: 2px;
+    top: 50%;
+}
+
+.ham_box_inner::after,
+.ham_box_inner::before {
+    position: absolute;
+    background-color: var(--hamcolor);
+    content: '';
+    
+    
+}
+
+.ham_box:hover{
+    transform: rotateZ(360deg);
+    transition: transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s;
+}
