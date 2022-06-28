@@ -23,7 +23,8 @@ module.exports = {
       'mainGreen':'#64ffda',
       'white':'#fff',
       'slate':'#8892b0',
-      'lightSlate':'#ccd6f6'
+      'lightSlate':'#ccd6f6',
+      'dark-navy':'#020c1b'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],

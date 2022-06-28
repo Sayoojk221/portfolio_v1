@@ -1,22 +1,10 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 function Hero() {
   return (
-    <div className="p-3">
-      <header>
-        <nav className="flex justify-between items-center px-2 h-12">
-          <div className="p-0">
-            <img
-              width={50}
-              height={50}
-              src="https://plugins.jetbrains.com/files/10044/181514/icon/pluginIcon.png"
-            />
-          </div>
-          <div className="ham_box mt-4 mx-2">
-            <div className="ham_box_inner"></div>
-          </div>
-        </nav>
-      </header>
+    <header className="p-3">
+      <NavBar />
       <div className="hero__content mx-10 my-14">
         <div className="hero__section_one font-main">
           <p className="text-mainGreen  text-lg">Hi, my name is</p>
@@ -35,9 +23,12 @@ function Hero() {
             independent projects, as well as collaborate as part of a productive
             team.
           </p>
+          <button className="my-14 text-mainGreen font-main text-base bg-transparent py-4 px-6 border border-mainGreen hover:bg-mainGreen transition-colors duration-700 hover:bg-opacity-10">
+            Check out my resume
+          </button>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
