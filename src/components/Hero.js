@@ -3,9 +3,8 @@ import NavBar from "./NavBar";
 
 function Hero() {
   return (
-    <header className="p-3">
-      <NavBar />
-      <div className="hero__content mx-10 my-14">
+    <header>
+      <div className="hero__content  my-14">
         <div className="hero__section_one font-main">
           <p className="text-mainGreen  text-lg">Hi, my name is</p>
           <div className="my-4 text-lightSlate ">

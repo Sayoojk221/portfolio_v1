@@ -7,8 +7,11 @@ body {
 }
 
 :root {
+    --fz-xs: 13px;
+    --fz-sm:14px;
     --hamwidth: 30px;
-    --hamcolor: #64ffda;
+    --green: #64ffda;
+    --font-main: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "monospace";
 }
 
 
@@ -26,7 +29,7 @@ body {
     width: var(--hamwidth);
     height: 2px;
     border-radius: 4px;
-    background-color: var(--hamcolor);
+    background-color: var(--green);
 }
 
 .ham_box_inner::before {
@@ -44,13 +47,21 @@ body {
 .ham_box_inner::after,
 .ham_box_inner::before {
     position: absolute;
-    background-color: var(--hamcolor);
+    background-color: var(--green);
     content: '';
-    
-    
+
+
 }
 
-.ham_box:hover{
+.ham_box:hover {
     transform: rotateZ(360deg);
     transition: transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s;
+}
+
+.skills>li:before {
+    content: "▹";
+    margin-right: 6px;
+    color: var(--green);
+    font-size: var(--fz-sm);
+    line-height: 12px;
 }
