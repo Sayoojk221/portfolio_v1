@@ -2,14 +2,14 @@ import React from "react";
 
 function About() {
   return (
-    <div className="my-20 flex flex-col md:flex-row">
-      <div className=" text-gray">
-        <div className="my-6  flex justify-start items-center font-semibold ">
-          <span className="text-mainGreen mr-2">01.</span>
-          <span className="text-lightSlate whitespace-nowrap mr-2  text-xl">
+    <div className="my-20 md:my-32 xl:my-40 text-gray lg:mx-8  flex flex-col items-center md:flex-row md:items-start">
+      <div className="flex-1">
+        <div className="my-6  flex justify-start items-center font-medium text-xl lg:text-2xl">
+          <span className="text-mainGreen mr-2 xl:text-lg">01.</span>
+          <span className="text-lightSlate whitespace-nowrap mr-2 font-bold ">
             About me
           </span>
-          <hr className="w-full" />
+          <hr className="w-full md:w-2/3" />
         </div>
         <p>
           Hello! My name is Brittany and I enjoy creating things that live on
@@ -49,13 +49,11 @@ function About() {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center">
-        <div className="w-7/12  pb-4 pr-4  border-b-2 border-r-2  border-mainGreen">
-          <img
-            src="profile.jpg"
-            className="max-w-full h-auto  shadow-xl rounded align-middle "
-          />
-        </div>
+      <div className="ml-8 md:my-20">
+        <img
+          src="profile.jpg"
+          className="w-60 h-auto pb-4 pr-4  shadow-xl rounded align-middle  border-b-2 border-r-2  border-mainGreen"
+        />
       </div>
     </div>
   );

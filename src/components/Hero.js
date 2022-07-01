@@ -1,20 +1,19 @@
 import React from "react";
-import NavBar from "./NavBar";
 
 function Hero() {
   return (
     <header>
-      <div className="hero__content  my-14">
-        <div className="hero__section_one font-main">
+      <div className="my-14 md:my-60 lg:my-12">
+        <div className="font-main">
           <p className="text-mainGreen  text-lg">Hi, my name is</p>
-          <div className="my-4 text-lightSlate ">
-            <p className=" text-4xl font-bold my-4">Sayooj Keloth</p>
-            <p className="text-3xl text-slate tracking-widest font-sans font-bold w-11/12 ">
-              l build things for the web
+          <div className="my-4 md:my-2 text-lightSlate ">
+            <p className=" text-4xl md:text-5xl lg:text-6xl  font-extrabold my-4 md:my-0">Sayooj Keloth.</p>
+            <p className="text-3xl md:text-4xl lg:text-5xl  xl:text-6xl lg:whitespace-nowrap text-slate  font-sans font-bold w-11/12 lg:w-full ">
+              l build things for the web.
             </p>
           </div>
         </div>
-        <div className="hero__section_two my-8">
+        <div className=" my-8 md:my-4">
           <p className=" text-slate">
             Experienced Full stack python developer adept in all stages of
             advanced web development. Knowledgeable in user interface, testing,
