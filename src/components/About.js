@@ -11,26 +11,26 @@ function About() {
           </span>
           <hr className="w-full md:w-2/3" />
         </div>
-        <p>
+        <p className="max-w-xl">
           Hello! My name is Brittany and I enjoy creating things that live on
           the internet. My interest in web development started back in 2012 when
           I decided to try editing custom Tumblr themes — turns out hacking
           together a custom reblog button taught me a lot about HTML & CSS!
         </p>
-        <p className="my-6">
+        <p className="my-6 max-w-xl">
           Fast-forward to today, and I’ve had the privilege of working at{" "}
           <span className="text-mainGreen font-bold text-opacity-90 hover:border-b-2 hover:border-b-mainGreen">
             an advertising agency, a start-up,
           </span>{" "}
-          <br />
+          
           <span className="text-mainGreen font-bold hover:border-b-2 hover:border-b-mainGreen">
             a huge corporation.
           </span>{" "}
-          and <br />
+          and 
           <span className="text-mainGreen font-bold hover:border-b-2 hover:border-b-mainGreen">
             a student-led design studio.
           </span>{" "}
-          My main focus these <br />
+          My main focus these 
           days is building accessible, inclusive products and digital
           experiences at Upstatement for a variety of clients.
         </p>
@@ -49,10 +49,10 @@ function About() {
           </ul>
         </div>
       </div>
-      <div className="ml-8 md:my-20">
+      <div className="ml-0 my-4 md:ml-8 md:my-20">
         <img
           src="profile.jpg"
-          className="w-60 h-auto pb-4 pr-4  shadow-xl rounded align-middle  border-b-2 border-r-2  border-mainGreen"
+          className="w-56 h-56 md:w-80 md:h-80 pb-4 pr-4  shadow-xl rounded align-middle  border-b-2 border-r-2  border-mainGreen"
         />
       </div>
     </div>

@@ -6,16 +6,20 @@ import Hero from "components/Hero";
 import About from "components/About";
 import NavBar from "components/NavBar";
 import Testmonial from "components/Testmonial";
+import SocialLinks from "components/SocialLinks";
+import Email from "components/Email";
 
 function Index() {
 
   return (
-    <div className="p-3">
+    <div className="p-4 md:p-6 lg:p-10">
       <NavBar />
-      <main className="mx-8 md:mx-16 lg:mx-40 xl:mx-72">
+      <SocialLinks />
+      <Email />
+      <main className="mx-8 md:mx-auto md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
         <Hero />
         <About />
-        {/* <Testmonial /> */}
+        <Testmonial />
       </main>
     </div>
   )

@@ -12,6 +12,7 @@ body {
     --hamwidth: 30px;
     --green: #64ffda;
     --font-main: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "monospace";
+    --light-gray:#d3dce6;
 }
 
 
@@ -64,4 +65,14 @@ body {
     color: var(--green);
     font-size: var(--fz-sm);
     line-height: 12px;
+}
+
+.sideContainer::after{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 98px;
+    margin: 0 auto;
+    background-color: var(--light-gray);
+
 }
