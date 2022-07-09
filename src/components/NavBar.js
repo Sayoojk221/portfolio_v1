@@ -1,7 +1,7 @@
 import React from "react";
 
 function NavBar() {
-  const navItems = ["about", "testimonial", "work", "contact"];
+  const navItems = ["about", "experience", "work", "contact"];
   return (
     <nav className="flex shadow-4xl justify-between items-center px-2 h-12">
       <div className="p-0">

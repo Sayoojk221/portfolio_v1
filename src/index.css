@@ -70,7 +70,7 @@ body {
 .sideContainer::after{
     content: '';
     display: block;
-    width: 2px;
+    width: 1px;
     height: 98px;
     margin: 0 auto;
     background-color: var(--light-gray);

@@ -16,7 +16,7 @@ function SocialLinks() {
             <li>
               <Item.Icon
                 size={"24px"}
-                className="text-gray cursor-pointer hover:text-mainGreen transition-colors duration-300 my-6"
+                className="text-gray cursor-pointer hover:text-mainGreen transition-colors duration-300 my-6 hover:animate-bounce"
               />
             </li>
           ))}

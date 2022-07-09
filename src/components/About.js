@@ -1,17 +1,12 @@
 import React from "react";
+import Heading from "./common/Heading";
 
 function About() {
   return (
-    <div className="my-20 md:my-32 xl:my-40 text-gray lg:mx-8  flex flex-col items-center md:flex-row md:items-start">
-      <div className="flex-1">
-        <div className="my-6  flex justify-start items-center font-medium text-xl lg:text-2xl">
-          <span className="text-mainGreen mr-2 xl:text-lg">01.</span>
-          <span className="text-lightSlate whitespace-nowrap mr-2 font-bold ">
-            About me
-          </span>
-          <hr className="w-full md:w-2/3" />
-        </div>
-        <p className="max-w-xl">
+    <div className="my-20 md:my-32 xl:my-40 text-gray lg:mx-8  font-main flex flex-col items-center md:flex-row md:items-start">
+      <div className="flex-1 text-base">
+        <Heading title={'About me'} titleCount={'01'}/>
+        <p className="max-w-xl ">
           Hello! My name is Brittany and I enjoy creating things that live on
           the internet. My interest in web development started back in 2012 when
           I decided to try editing custom Tumblr themes — turns out hacking
