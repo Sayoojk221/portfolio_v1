@@ -32,7 +32,7 @@ function About() {
         <p className="my-4">
           Here are a few technologies I’ve been working with recently:
         </p>
-        <div className="grid grid-cols-2 my-8 mx-2">
+        <div className="grid grid-cols-2 text-sm sm:text-base my-8 mx-2">
           <ul className="skills">
             <li>Javascript (ES6+)</li>
             <li>Python</li>
@@ -40,7 +40,7 @@ function About() {
           </ul>
           <ul className="skills">
             <li>Django 3</li>
-            <li>Figma</li>
+            <li>Tailwind CSS</li>
           </ul>
         </div>
       </div>

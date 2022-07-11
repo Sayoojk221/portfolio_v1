@@ -17,7 +17,7 @@ function NavBar() {
       <div className="hidden md:visible md:flex  text-mainGreen font-main  ">
         <ul className="flex justify-center items-center">
           {navItems.map((nav, key) => (
-            <li className="mx-3 capitalize ">
+            <li className="mx-3 capitalize " key={key}>
               <span className="font-medium text-base">0{key + 1}.</span>
               <span className="text-gray font-bold mx-1 cursor-pointer hover:text-mainGreen transition-colors duration-300">
                 {nav}

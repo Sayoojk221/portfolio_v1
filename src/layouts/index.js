@@ -9,6 +9,7 @@ import NavBar from "components/NavBar";
 import SocialLinks from "components/SocialLinks";
 import Email from "components/Email";
 import Experience from "components/Experience";
+import Projects from "components/Projects";
 
 function Index() {
 
@@ -21,6 +22,7 @@ function Index() {
         <Hero />
         <About />
         <Experience />
+        <Projects />
       </main>
     </div>
   )

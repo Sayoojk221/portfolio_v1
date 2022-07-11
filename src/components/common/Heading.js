@@ -7,7 +7,7 @@ function Heading({title,titleCount}) {
       <span className="text-lightSlate text-lg md:text-2xl lg:text-3xl whitespace-nowrap mr-2 font-extrabold f ">
         {title}
       </span>
-      <hr className="w-full md:w-2/3 bg-gray" />
+      <hr className="w-full md:w-2/3 lg:w-80 bg-gray-dark" />
     </div>
   );
 }

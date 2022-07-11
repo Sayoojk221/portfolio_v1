@@ -10,7 +10,7 @@ body {
     --fz-xs: 13px;
     --fz-sm:14px;
     --hamwidth: 30px;
-    --green: #64ffda;
+    --green: radial-gradient(35.12% 1864.16% at 7.09% 4.38%, rgb(75, 201, 240) 0%, rgb(55, 114, 255) 100%);
     --font-main: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "monospace";
     --light-gray:#d3dce6;
 }

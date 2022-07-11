@@ -12,8 +12,8 @@ function SocialLinks() {
     <div className=" text-gray fixed bottom-px ">
       <div className="hidden lg:visible lg:flex flex-col ">
         <ul className="sideContainer">
-          {iconLists.map((Item) => (
-            <li>
+          {iconLists.map((Item,key) => (
+            <li key={key}>
               <Item.Icon
                 size={"24px"}
                 className="text-gray cursor-pointer hover:text-mainGreen transition-colors duration-300 my-6 hover:animate-bounce"

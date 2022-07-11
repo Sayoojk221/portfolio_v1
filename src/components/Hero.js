@@ -7,16 +7,16 @@ function Hero() {
         <div className="font-main">
           <p className="text-mainGreen  text-lg">Hi, my name is</p>
           <div className="my-4 md:my-2 text-lightSlate ">
-            <p className=" text-4xl md:text-5xl lg:text-6xl xl:text-7xl  font-extrabold my-4 md:my-0">
+            <p className="xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl  font-extrabold my-4 md:my-0">
               Sayooj Keloth.
             </p>
-            <p className="text-3xl md:text-4xl lg:text-5xl  xl:text-6xl lg:whitespace-nowrap text-slate  font-sans font-bold w-11/12 lg:w-full ">
+            <p className="xs:text-3xl md:text-4xl lg:text-5xl  xl:text-6xl lg:whitespace-nowrap text-slate  font-sans font-bold w-11/12 lg:w-full ">
               l build things for the web.
             </p>
           </div>
         </div>
         <div className=" my-8 md:my-4">
-          <p className=" text-slate ">
+          <p className=" text-slate w-full lg:w-2/3">
             Experienced Full stack python developer adept in all stages of
             advanced web development. Knowledgeable in user interface, testing,
             and debugging processes. Able to effectively self-manage during
