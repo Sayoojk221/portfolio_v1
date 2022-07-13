@@ -26,7 +26,9 @@ module.exports = {
       'slate':'#8892b0',
       'lightSlate':'#ccd6f6',
       'dark-navy':'#020c1b',
-      'gray-lighter':'#8492a61c'
+      'gray-lighter':'#8492a61c',
+      'navy-shadow':'rgba(2,12,27,0.7)',
+      'light-navy':'#112240'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -55,6 +57,9 @@ module.exports = {
       '5xl': '3.5rem',
       '6xl': '4rem',
       '7xl': '5rem',
+    },
+    backgroundImage:{
+      heyhalls:"url('../public/images/heyhalls.PNG')"
     }
   },
   plugins: [],

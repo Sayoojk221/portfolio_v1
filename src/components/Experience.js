@@ -4,8 +4,8 @@ import Heading from "./common/Heading";
 function Experience() {
   const companies = [
     { name: "Freelance",job:'Full stack developer' },
-    { name: "Execomusa",job:'Full stack developer' },
     { name: "TeacherOn",job:'Python tutor' },
+    { name: "Execomusa",job:'Full stack developer' },
     { name: "Btrac",job:'Full stack developer' },
   ];
   const [active, setActive] = useState(companies[0]);
