@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="my-36 xl:my-56 lg:mx-40  text-gray   font-main">
+    <div className="my-36 xl:my-56 xl:mb-8 lg:mx-40  text-gray   font-main">
       <div className="flex flex-col text-center items-center mx-4">
         <p className="text-mainGreen text-lg">04. What's Next ?</p>
         <p className="my-6 text-lightSlate font-bold  font-sans text-3xl sm:text-4xl lg:text-5xl">Get In Touch</p>
