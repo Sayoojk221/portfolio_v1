@@ -1,14 +1,15 @@
 import React from "react";
-import { Provider } from "react-redux";
+import {Helmet} from 'react-helmet'
 
 import Portfolio from 'layouts'
-import store from "store/store";
-
 function App() {
   return (
-    <Provider store={store}>
+    <div>
+      <Helmet>
+        <title>Sayooj Keloth</title>
+      </Helmet>
       <Portfolio />
-    </Provider>
+    </div>
   );
 }
 

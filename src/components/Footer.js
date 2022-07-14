@@ -4,20 +4,25 @@ import { FiGithub } from "react-icons/fi";
 
 function Footer() {
   const iconLists = [
-    { Icon: FiGithub },
-    { Icon: FaLinkedinIn },
-    { Icon: FaInstagram },
-    { Icon: FaFacebookF },
+    { Icon: FiGithub, link: "https://github.com/Sayoojk221" },
+    {
+      Icon: FaLinkedinIn,
+      link: "https://www.linkedin.com/in/sayooj-k-627462188/",
+    },
+    { Icon: FaInstagram, link: "#" },
+    { Icon: FaFacebookF, link: "#" },
   ];
   return (
     <div className="my-8 md:hidden">
       <ul className="flex justify-center">
         {iconLists.map((Item, key) => (
           <li key={key}>
-            <Item.Icon
-              size={"24px"}
-              className="text-gray cursor-pointer hover:text-mainGreen transition-colors duration-300 mx-4 hover:animate-bounce"
-            />
+            <a href={Item.link} target="_blank" rel="noreferrer">
+              <Item.Icon
+                size={"24px"}
+                className="text-gray cursor-pointer hover:text-mainGreen transition-colors duration-300 mx-4 hover:animate-bounce"
+              />
+            </a>
           </li>
         ))}
       </ul>

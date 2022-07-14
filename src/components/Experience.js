@@ -1,17 +1,47 @@
 import React, { useState } from "react";
 import Heading from "./common/Heading";
 
-function Experience() {
+function Experience({sectionId}) {
   const companies = [
-    { name: "Freelance",job:'Full stack developer' },
-    { name: "TeacherOn",job:'Python tutor' },
-    { name: "Execomusa",job:'Full stack developer' },
-    { name: "Btrac",job:'Full stack developer' },
+    {
+      name: "Execomusa",
+      job: "Full stack developer",
+      start: "March 2021",
+      end: "Present",
+      link:'#',
+      roles: [
+        "Designed and developed front-end and back-end applications utilizing ReactJS, Django RESET framework",
+        "Effectively translated client requirements into application designs and system requirements. ",
+        "Worked with a proficient understanding of code conversion tools.",
+      ],
+    },
+    {
+      name: "TeacherOn",
+      job: "Freelance web developer",
+      start: "Nov 2020",
+      end: "Present",
+      link:'https://www.teacheron.com/tutor-profile/2b0H',
+      roles: [
+        "provided technical support to college students on their projects and assignment",
+        "Worked with startup company to transfer their ideas to live website",
+      ],
+    },
+    {
+      name: "Btrac",
+      job: "Junior web developer",
+      start: "Jan",
+      end: "Oct 2020",
+      link:'https://www.btrac.in/',
+      roles: [
+        "Designed, implemented and monitored web pages and sites for continuous improvement.",
+        "Researched new technologies, software packages and hardware products for use in website projects",
+      ],
+    },
   ];
   const [active, setActive] = useState(companies[0]);
-  
+
   return (
-    <div className="my-36 xl:my-44 lg:mx-40  text-gray   font-main">
+    <div data-aos="fade-up-left" className="my-36 xl:my-56 min-h-fit lg:mx-40  text-gray   font-main">
       <Heading title={"Where I've worked"} titleCount={"02"} />
       <div className="flex flex-col md:flex-row">
         <div className="md:mr-10">
@@ -34,26 +64,24 @@ function Experience() {
         <div className="my-6 md:my-0 md:py-0 ">
           <p className="text-lightSlate xs:text-sm sm:text-base md:text-lg font-bold">
             {active?.job}{" "}
-            <a href="#" className="text-mainGreen">
+            <a href={active.link} target='_blank' rel='noreferrer' className="text-mainGreen" >
               @ {active?.name}
             </a>
           </p>
-          <p className="my-2 text-sm md:text-base font-extralight">January - April 2002</p>
+          <p className="my-2 text-sm md:text-base font-extralight">
+            {active?.start} - {active.end}
+          </p>
           <ul className="text-sm mt-4 mx-4 md:mx-0">
-            <li className="flex my-2 ">
-              <span className="text-mainGreen mr-4 text-lg sm:text-xl md:text-base">▹</span>
-              <p className="font-extrabold">
-                Write modern, performant, maintainable code for a diverse array
-                of client and internal projects
-              </p>
-            </li>
-            <li className="flex my-2 ">
-              <span className="text-mainGreen mr-4 text-lg sm:text-xl md:text-base">▹</span>
-              <p className="font-extrabold">
-                Write modern, performant, maintainable code for a diverse array
-                of client and internal projects
-              </p>
-            </li>
+            {active.roles.map((role,key) => (
+              <li className="flex my-2 " key={key}>
+                <span className="text-mainGreen mr-4 text-lg sm:text-xl md:text-base">
+                  ▹
+                </span>
+                <p className="font-extrabold">
+                  {role}
+                </p>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

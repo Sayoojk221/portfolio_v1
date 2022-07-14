@@ -1,7 +1,6 @@
 import React from "react";
-import { useSelector } from "react-redux";
-
-import { getUI } from "store/selectors";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Hero from "components/Hero";
 import About from "components/About";
@@ -14,7 +13,9 @@ import Contact from "components/Contact";
 import Footer from "components/Footer";
 
 function Index() {
-
+  AOS.init({
+    duration:500
+  });
   return (
     <div className="p-2 md:p-6 lg:p-8">
       <NavBar />

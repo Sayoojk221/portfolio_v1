@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div className="my-20 md:my-32 xl:my-40 text-gray lg:mx-8  font-main shadow-navy-shadow">
       <Heading title={"Something I've worked "} titleCount="03" />
-      <div className="mx-2 ">
+      <div className="mx-2 " data-aos="zoom-in">
         <div className="rounded relative md:flex justify-center items-center  overflow-hidden  max-w-full shadow-2xl lg:shadow-none">
           <img
             alt="heyhalls"
@@ -19,33 +19,38 @@ function Projects() {
           <div className="absolute md:relative top-0 md:text-end  md:right-px p-4 sm:py-6 md:px-0 font-main font-bold">
             <p className="text-mainGreen text-2xl ">Heyhalls</p>
             <p className="my-4 md:bg-light-navy shadow-navy-shadow md:p-4 md:py-6 md:-ml-20 md:rounded-md md:shadow-lg">
-              A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
-              and more. Available on Visual Studio Marketplace, Package Control,
-              Atom Package Manager, and npm.
+              Heyhalls.com is the unique online portal that showcase the places
+              for all kind of events locations in your own or at a location of
+              your choice.
             </p>
-            <p className="my-4 ">
-              VS Code Sublime Text Atom iTerm2 Hyper
-            </p>
+            <p className="my-4 ">Python3, Django rest framework, Next js,React context </p>
             <div className="flex items-center md:justify-end ">
-              <FiExternalLink className="text-gray cursor-pointer text-xl hover:text-mainGreen transition-colors duration-300 mt-2 ml-4 hover:animate-bounce" />
+              <a href="https://heyhalls.com/" target="_blank" rel="noreferrer">
+                <FiExternalLink className="text-gray cursor-pointer text-xl hover:text-mainGreen transition-colors duration-300 mt-2  hover:animate-bounce" />
+              </a>
             </div>
           </div>
         </div>
       </div>
 
-      <div className=" my-24 mx-2 ">
+      <div className=" my-24 mx-2 " data-aos="zoom-in-up">
         <div className="rounded relative md:flex justify-center items-center overflow-hidden  max-w-full shadow-2xl lg:shadow-none">
           <div className="absolute md:relative top-0  md:right-px p-4 sm:py-6 md:px-0 font-main font-bold">
             <p className="text-mainGreen text-2xl">Tedaps</p>
             <p className="my-4 md:bg-light-navy  md:p-4 md:py-6 md:-mr-20 md:rounded-md md:shadow-lg">
-              A web app for visualizing personalized Spotify data. View your top
-              artists, top tracks, recently played tracks, and detailed audio
-              information about each track. Create and save new playlists of
-              recommended tracks based on your existing playlists and more.
+              TEDAPS brings the power of cloud computing in its engineering
+              calculation modules, to build and manage your project design
+              calculations in collaboration with the team
             </p>
-            <p className="my-4">VS Code Sublime Text Atom iTerm2 Hyper</p>
+            <p className="my-4">React Js,Redux,Tailwind CSS,Chakra UI</p>
             <div className="flex items-center">
-              <FiExternalLink className="text-gray cursor-pointer text-xl hover:text-mainGreen transition-colors duration-300 mt-2 ml-4 hover:animate-bounce" />
+              <a
+                href="https://tedaps-landing-page.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FiExternalLink className="text-gray cursor-pointer text-xl hover:text-mainGreen transition-colors duration-300 mt-2  hover:animate-bounce" />
+              </a>
             </div>
           </div>
           <img
@@ -56,7 +61,7 @@ function Projects() {
         </div>
       </div>
 
-      <div className="mx-2 ">
+      <div className="mx-2 " data-aos="zoom-in-down">
         <div className="rounded relative md:flex justify-center items-center  overflow-hidden  max-w-full shadow-2xl lg:shadow-none">
           <img
             alt="heyhalls"
@@ -66,15 +71,20 @@ function Projects() {
           <div className="absolute md:relative top-0 md:text-end  md:right-px p-4 sm:py-6 md:px-0 font-main font-bold">
             <p className="text-mainGreen text-2xl ">Shades&Blinds</p>
             <p className="my-4 md:bg-light-navy shadow-navy-shadow md:p-4 md:py-6 md:-ml-20 md:rounded-md md:shadow-lg">
-              A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
-              and more. Available on Visual Studio Marketplace, Package Control,
-              Atom Package Manager, and npm.
+              Shades & Blinds LLC lead by 25 Years of experienced professionals
+              in the window fashion industry. Our high-quality blinds & curtains
+              offer excellent quality of stylish and made-to-measure window
+              coverings at affordable prices.
             </p>
-            <p className="my-4 ">
-              VS Code Sublime Text Atom iTerm2 Hyper
-            </p>
+            <p className="my-4 ">HTML,CSS,Javascripts,Tailwind CSS</p>
             <div className="flex items-center md:justify-end ">
-              <FiExternalLink className="text-gray cursor-pointer text-xl hover:text-mainGreen transition-colors duration-300 mt-2 ml-4 hover:animate-bounce" />
+              <a
+                href="https://shadesandblindsme.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FiExternalLink className="text-gray cursor-pointer text-xl hover:text-mainGreen transition-colors duration-300 mt-2  hover:animate-bounce" />
+              </a>
             </div>
           </div>
         </div>
