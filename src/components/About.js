@@ -40,9 +40,11 @@ function About() {
         </p>
         <div className="grid grid-cols-2 text-sm sm:text-base my-8 mx-2">
           <ul className="skills">
-            <li>Javascript (ES6+)</li>
-            <li>Tailwind CSS</li>
+            <li>Javascript</li>
             <li>React Js</li>
+            <li>Redux / Context</li>
+            <li>Tailwind CSS</li>
+            
           </ul>
           <ul className="skills">
             <li>Python 3</li>
