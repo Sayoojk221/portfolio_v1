@@ -1,6 +1,6 @@
 import React from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Hero from "components/Hero";
 import About from "components/About";
@@ -14,7 +14,7 @@ import Footer from "components/Footer";
 
 function Index() {
   AOS.init({
-    duration:500
+    duration: 500,
   });
   return (
     <div className="p-2 md:p-6 lg:p-8">
@@ -23,14 +23,22 @@ function Index() {
       <Email />
       <main className="mx-8 md:mx-auto md:max-w-2xl lg:max-w-4xl xl:max-w-5xl">
         <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
+        <section id='about'>
+          <About />
+        </section>
+        <section id="experience">
+          <Experience />
+        </section>
+        <section id='work'>
+          <Projects />
+        </section>
+        <section id='contact'>
+          <Contact />
+        </section>
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
 export default Index;

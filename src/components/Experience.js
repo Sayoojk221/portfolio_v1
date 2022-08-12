@@ -41,7 +41,7 @@ function Experience({sectionId}) {
   const [active, setActive] = useState(companies[0]);
 
   return (
-    <div data-aos="fade-up-left" className="my-36 xl:my-56 min-h-fit lg:mx-40  text-gray   font-main">
+    <div data-aos="fade-up-left"  className="my-36 xl:my-56 min-h-fit lg:mx-40  text-gray   font-main">
       <Heading title={"Where I've worked"} titleCount={"02"} />
       <div className="flex flex-col md:flex-row">
         <div className="md:mr-10">

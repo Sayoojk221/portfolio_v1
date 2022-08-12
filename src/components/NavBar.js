@@ -3,6 +3,7 @@ import Resume from 'images/resume.pdf'
 
 function NavBar() {
   const navItems = ["about", "experience", "work", "contact"];
+
   return (
     <nav className="flex shadow-4xl justify-between items-center px-2 h-12">
       <div className="p-0" >
@@ -21,7 +22,7 @@ function NavBar() {
             <li className="mx-3 capitalize" key={key} >
               <span className="font-medium text-base">0{key + 1}.</span>
               <span className="text-gray font-bold mx-1 cursor-pointer hover:text-mainGreen transition-colors duration-300">
-                <a href={'#'+nav}>{nav}</a>
+                <a href={'#'+nav} >{nav}</a>
               </span>
             </li>
           ))}
