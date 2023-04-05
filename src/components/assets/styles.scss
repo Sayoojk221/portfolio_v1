@@ -1,0 +1,33 @@
+@import "./breakpoints.scss";
+
+.project_wrapper:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.rotate_content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  right: 54px;
+
+  @include sm {
+    display: block;
+    right: 5px;
+    height: -webkit-fill-available;
+    overflow: scroll;
+  }
+
+  .reduce_sizing {
+    margin-right: 0px;
+    margin-left: -4rem;
+    padding-block: 14px;
+
+    @include sm {
+      margin: 0px;
+      padding-block: 10px;
+    }
+  }
+
+
+}
+

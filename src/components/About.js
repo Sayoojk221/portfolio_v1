@@ -54,6 +54,7 @@ function About() {
       </div>
       <div className="ml-0 my-4 md:ml-8 md:my-20">
         <img
+          alt="profile"
           src="profile.jpg"
           className="w-56 h-56 md:w-80 md:h-80 pb-4 pr-4  shadow-xl rounded align-middle  border-b-2 border-r-2  border-mainGreen"
         />

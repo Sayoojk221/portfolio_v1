@@ -10,6 +10,7 @@ function NavBar() {
         <img
           width={50}
           height={50}
+          alt="icon"
           src="https://plugins.jetbrains.com/files/10044/181514/icon/pluginIcon.png"
         />
       </div>
