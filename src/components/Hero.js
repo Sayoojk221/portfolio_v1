@@ -11,7 +11,7 @@ function Hero() {
               Sayooj Keloth.
             </p>
             <p className="xs:text-3xl md:text-4xl capitalize lg:text-5xl  xl:text-6xl lg:whitespace-nowrap text-slate  font-sans font-bold w-11/12 lg:w-full ">
-            convert ideas to life with code.
+            Bringing ideas to life with code.
             </p>
           </div>
         </div>

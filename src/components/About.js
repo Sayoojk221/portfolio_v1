@@ -23,7 +23,7 @@ function About() {
           {/* <a href="https://www.teacheron.com/tutor-profile/2b0H?r=2b0H" target="_blank" style={{display:'inline-block'}}><img src="https://www.teacheron.com/resources/assets/img/badges/viewMyProfile.png" width={120} height={50} /></a> */}
         </p>
         <p className="my-6 max-w-xl">
-          Recently I got 14+ client reviews on one of the best{" "}
+          Recently I got 12+ client reviews on one of the best{" "}
           <a
             href="https://www.teacheron.com"
             target={"_blank"}
@@ -42,13 +42,14 @@ function About() {
           <ul className="skills">
             <li>Javascript</li>
             <li>React Js</li>
-            <li>Redux / Context</li>
-            <li>Tailwind CSS</li>
+            <li>Redux</li>
+            <li>Express Js</li>
             
           </ul>
           <ul className="skills">
-            <li>Python 3</li>
-            <li>Django Rest Framework</li>
+            <li>Python</li>
+            <li>React Native</li>
+            <li>SQL</li>
           </ul>
         </div>
       </div>

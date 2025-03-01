@@ -36,12 +36,13 @@ const companies = [
   {
     name: "Authenticate",
     job: "Full stack developer",
-    start: "Sep 2022",
+    start: "Oct 2022",
     end: "Present",
     link: "https://authenticate.com/",
     roles: [
-      "Designed and developed front-end and back-end applications utilizing ReactJS and Express JS ",
+      "Integrated the Mixpanel analytics tool into the core product, enhancing customer engagement tracking by 50% and significantly improving decision-making for the Sales and Marketing teams.",
       "Utilizes Jira software to manage work, emphasizing the company's commitment to organization and efficiency.",
+      "Designed a modular PDF report generation system, facilitating seamless monthly compliance reporting for 1,000 to 2,000 customers with a scalable architecture for future enhancements."
     ],
   },
   {
@@ -62,8 +63,8 @@ const companies = [
     end: "Oct 2022",
     link: "https://www.teacheron.com/tutor-profile/2b0H",
     roles: [
-      "provided technical support to college students on their projects and assignment",
-      "Worked with startup company to transfer their ideas to live website",
+      "Established strong professional relationships with national and international clients, assisting in product development and maintenance, earning 12+ excellent client reviews.",
+      "Conducted one-on-one training sessions for college students, teaching website development and programming languages.",
     ],
   },
   {
@@ -73,8 +74,9 @@ const companies = [
     end: "Oct 2020",
     link: "https://www.btrac.in/",
     roles: [
-      "Designed, implemented and monitored web pages and sites for continuous improvement.",
-      "Researched new technologies, software packages and hardware products for use in website projects",
+      "Completed a Python programming course with hands-on projects.",
+      "Developed and maintained web applications using Python, ensuring scalability and performance.",
+      "Gained experience with version control using Git while contributing to collaborative projects in Python."
     ],
   },
 ];

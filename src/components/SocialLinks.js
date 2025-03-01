@@ -5,8 +5,8 @@ function SocialLinks() {
   const iconLists = [
     { Icon: FiGithub, link: "https://github.com/Sayoojk221" },
     { Icon: FaLinkedinIn, link: "https://www.linkedin.com/in/sayooj-k-627462188/" },
-    { Icon: FaInstagram, link: "#" },
-    { Icon: FaFacebookF, link: "#" },
+    { Icon: FaInstagram, link: "https://www.instagram.com/sayooj_k22" },
+    // { Icon: FaFacebookF, link: "#" },
   ];
   return (
     <div className=" text-gray fixed bottom-px ">
